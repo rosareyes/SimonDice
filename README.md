@@ -1,2 +1,2 @@
 # SimonDice
-Simon Game usign jQuery
+Simon Game using jQuery

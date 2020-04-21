@@ -8,7 +8,9 @@ var startedGame = false;
 $(document).on('keypress touchstart', function() {
   if (!startedGame) {
     startedGame = true;
-    nextSequence();
+    setTimeout(function() {
+      nextSequence();
+    }, 300);
   }
 });
 

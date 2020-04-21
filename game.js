@@ -39,6 +39,7 @@ function checkCorrect(currentLevel) {
     setTimeout(function() {
       $("body").removeClass("game-over")
     }, 200);
+    playSound("wrong");
     starOver();
 
   }

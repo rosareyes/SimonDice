@@ -5,7 +5,7 @@ var userClickedPattern = [];
 var level = 0;
 var startedGame = false;
 
-$(document).keypress(function() {
+$(document).on('keypress touchstart', function() {
   if (!startedGame) {
     startedGame = true;
     nextSequence();
